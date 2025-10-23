@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)file:///D:/gioithiuecanhna/baithuchanhs2.html -->
+<html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Trang cá nhân</title>
+  <style>
+    :root {
+      --primary: #007acc;
+      --accent: #ff6600;
+      --light: #ffffff;
+      --gray: #f9f9f9;
+      --text: #333;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--gray);
+      color: var(--text);
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      color: var(--light);
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 30px; }
+    nav { margin-top: 12px; }
+    nav a {
+      color: var(--light);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    /* ===== MAIN ===== */
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 25px;
+      background: var(--light);
+      border-radius: 12px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+    }
+
+    /* ===== INTRO ===== */
+    .intro {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .intro img {
+      width: 150px; height: 150px;
+      border-radius: 50%;
+      margin-right: 25px;
+      border: 4px solid var(--primary);
+    }
+    .intro p { line-height: 1.6; }
+
+    /* ===== SECTION ===== */
+    .section { margin-bottom: 35px; }
+    .section h2 {
+      font-size: 22px;
+      color: var(--primary);
+      border-left: 6px solid var(--accent);
+      padding-left: 10px;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section h2 img {
+      width: 28px;
+      height: 28px;
+    }
+
+    /* Grid layout cho Skills và Sở thích */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: var(--gray);
+      padding: 15px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .card img {
+      width: 40px; height: 40px;
+    }
+
+    /* Bài viết */
+    .post {
+      background: var(--gray);
+      padding: 15px;
+      border-left: 4px solid var(--primary);
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+    .post b { color: var(--accent); }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Xin chào, tôi là Nguyễn Đình Văn</h1>
+  <nav>
+    <a href="file:///D:/gioithiuecanhna/baithuchanhs2.html#">Giới thiệu</a>
+    <a href="file:///D:/gioithiuecanhna/baithuchanhs2.html#">Kỹ năng</a>
+    <a href="file:///D:/gioithiuecanhna/baithuchanhs2.html#">Sở thích</a>
+    <a href="file:///D:/gioithiuecanhna/baithuchanhs2.html#">Công việc</a>
+    <a href="file:///D:/gioithiuecanhna/baithuchanhs2.html#">Bài viết</a>
+  </nav>
+</header>
+
+<div class="container">
+  <!-- Intro -->
+  <div class="intro">
+    <img src="a1.jpeg" alt="Ảnh cá nhân">
+    <p>
+Tôi là sinh viên CNTT yêu thích web, <i>UI/UX</i> và đặc biệt là <b>phân tích dữ liệu</b>. 
+      Blog này ghi lại quá trình học tập và những điều tôi khám phá mỗi ngày trong lĩnh vực Data Analytics.
+    </p>
+  </div>
+
+  <!-- Skills -->
+  <div class="section">
+    <h2><img src="a2.jpeg"> Kỹ năng</h2>
+    <div class="grid">
+      <div class="card"><img src="a3.jpeg"> Excel &amp; Google Sheets</div>
+      <div class="card"><img src="a4.jpeg"> Python (Pandas, Matplotlib)</div>
+      <div class="card"><img src="a5.jpeg"> SQL &amp; CSDL</div>
+      <div class="card"><img src="a7.jpeg"> Power BI / Tableau</div>
+      <div class="card"><img src="a8.jpeg"> Machine Learning cơ bản</div>
+    </div>
+  </div>
+
+  <!-- Hobbies -->
+  <div class="section">
+    <h2><img src="a9.jpeg"> Sở thích</h2>
+    <div class="grid">
+      <div class="card"><img src="a10.jpeg"> Phân tích dữ liệu kinh doanh</div>
+      <div class="card"><img src="a11.jpeg"> Hành vi khách hàng</div>
+      <div class="card"><img src="a12.jpeg"> Phân tích tài chính</div>
+      <div class="card"><img src="a13.jpeg"> Dữ liệu mạng xã hội</div>
+      <div class="card"><img src="a15.jpeg"> Ứng dụng AI/ML</div>
+    </div>
+  </div>
+
+  <!-- Career -->
+  <div class="section">
+    <h2><img src="a16.jpeg"> Công việc mong muốn</h2>
+    <p>
+      Mục tiêu của tôi là trở thành <b>Chuyên gia phân tích dữ liệu</b>, 
+      ứng dụng kiến thức để hỗ trợ doanh nghiệp ra quyết định chính xác, 
+      đồng thời phát triển bản thân trong lĩnh vực Data Science.
+    </p>
+  </div>
+
+  <!-- Posts -->
+  <div class="section">
+    <h2><img src="a17.jpeg"> Bài viết gần đây</h2>
+    <div class="post"><b>Nhập môn SQL cho phân tích dữ liệu</b><br>Chia sẻ cách viết truy vấn SQL áp dụng vào báo cáo thực tế.</div>
+    <div class="post"><b>Trực quan hóa dữ liệu với Power BI</b><br>Cách tạo Dashboard tương tác giúp lãnh đạo nắm thông tin nhanh chóng.</div>
+    <div class="post"><b>Python và Pandas trong xử lý dữ liệu</b><br>Kinh nghiệm làm sạch &amp; phân tích tập dữ liệu lớn.</div>
+  </div>
+</div>
+
+<footer>
+  © Gmail:ngdnhvandulieu@gmail.com 
+</footer>
+<footer>SĐT:0982708207</footer>
+
+
+</body></html>
